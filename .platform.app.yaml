@@ -30,7 +30,7 @@ mounts:
     # Storage for Craft-writeable files.
     "/storage": "shared:files/storage"
     "/web/cpresources": "shared:files/cpresources"
-    "/web/assets": "shared:files/assets"
+    "/web/assets/site": "shared:files/assets/site"
     "/config/project": "shared:files/config/project"
     # The license file needs to be runtime writeable.
     "/license": "shared:files/license"
