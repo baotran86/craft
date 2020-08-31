@@ -10,6 +10,7 @@ if (isset($_ENV['PLATFORM_RELATIONSHIPS'])) {
     $relationships = json_decode(base64_decode($_ENV['PLATFORM_RELATIONSHIPS']), true);
     if (isset($relationships['database'][0])) {
         $database = $relationships['database'][0];
+        var_dump($database);
         return [
           'driver' => $database['scheme'],
           'server' => $database['host'],
