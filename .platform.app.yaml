@@ -11,8 +11,8 @@ build:
 
 hooks:
     build: |
-        chmod -R 755 web/assets/site
-        chmod -R 755 config/project
+        chmod -R 755 /web/assets/site
+        chmod -R 755 /config/project
 variables:
     php:
         display_errors: On
