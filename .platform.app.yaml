@@ -9,10 +9,6 @@ type: php:7.1
 build:
     flavor: composer
 
-hooks:
-    build: |
-        chmod -R 755 /web/assets/site
-        chmod -R 755 /config/project
 variables:
     php:
         display_errors: On
